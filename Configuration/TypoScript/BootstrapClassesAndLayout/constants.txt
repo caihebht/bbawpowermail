@@ -24,16 +24,16 @@ plugin.tx_powermail {
 				fieldAndLabelWrappingClasses = form-group col-md-6
 
 				# cat=powermail_styles//0120; type=text; label= Framework classname(s) for wrapping container of a field e.g. "row form-group"
-				fieldWrappingClasses = col-sm-10
+				fieldWrappingClasses = col-md-10
 
 				# cat=powermail_styles//0130; type=text; label= Framework classname(s) for fieldlabels e.g. "col-md-2 col-md-3"
-				labelClasses = control-label col-sm-3
+				labelClasses = control-label col-md-3
 
 				# cat=powermail_styles//0140; type=text; label= Framework classname(s) for fields e.g. "form-control"
 				fieldClasses = form-control
 
 				# cat=powermail_styles//0150; type=text; label= Framework classname(s) for fields with an offset e.g. "col-sm-offset-2"
-				offsetClasses = col-sm-offset-2
+				offsetClasses = col-md-offset-2
 
 				# cat=powermail_styles//0160; type=text; label= Framework classname(s) especially for radiobuttons e.g. "radio"
 				radioClasses = radio
