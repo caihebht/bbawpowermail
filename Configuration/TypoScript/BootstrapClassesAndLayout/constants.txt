@@ -27,7 +27,7 @@ plugin.tx_powermail {
 				fieldWrappingClasses = col-sm-10
 
 				# cat=powermail_styles//0130; type=text; label= Framework classname(s) for fieldlabels e.g. "col-md-2 col-md-3"
-				labelClasses = control-label col-sm-2
+				labelClasses = control-label col-sm-3
 
 				# cat=powermail_styles//0140; type=text; label= Framework classname(s) for fields e.g. "form-control"
 				fieldClasses = form-control
