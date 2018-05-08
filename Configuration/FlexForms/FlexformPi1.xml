@@ -88,18 +88,6 @@
 						</TCEforms>
 					</settings.flexform.main.pid>
 
-					<settings.anmeldung.max>
-						<TCEforms>
-							<label>Max. Anmeldungen</label>
-							<config>
-								<type>input</type>
-								<size>2</size>
-								<eval>int</eval>
-								<default>150</default>
-							</config>
-						</TCEforms>
-					</settings.anmeldung.max>
-
 				</el>
 			</ROOT>
 		</main>
