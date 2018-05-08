@@ -20,14 +20,12 @@ plugin.tx_powermail {
 	# Modify localization of labels
 	_LOCAL_LANG {
 		default {
-			confirmation_message = Are these values correct?
-			validationerror_mandatory = This field must be filled!
-			validationerror_mandatory_multi = One of these fields must be filled!
-		}
-		de {
 			confirmation_message = Sind diese Eingaben korrekt?
 			validationerror_mandatory = Dieses Feld muss ausgefüllt werden!
 			validationerror_mandatory_multi = Eines dieser Felder muss ausgefüllt werden!
+			confirmation_prev = Zurück
+			confirmation_next = Weiter
+			validationerror_validation.1 = Keine gültige E-Mail-Adresse!
 		}
 	}
 
