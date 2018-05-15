@@ -26,6 +26,8 @@ plugin.tx_powermail {
 			confirmation_prev = Zurück
 			confirmation_next = Weiter
 			validationerror_validation.1 = Keine gültige E-Mail-Adresse!
+			validationerror_validation.4 = Bitte nur Nummern eintragen!
+			validationerror_validation.7 = Bitte niedrigere Zahl eintragen!
 		}
 	}
 
