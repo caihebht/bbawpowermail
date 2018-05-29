@@ -1,23 +1,19 @@
 <?php
 declare(strict_types=1);
 namespace In2code\Powermail\Domain\Service;
-
 use In2code\Powermail\Utility\ObjectUtility;
 use TYPO3\CMS\Extbase\Mvc\Web\Routing\UriBuilder;
 use TYPO3\CMS\Extbase\Service\FlexFormService;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
-
 /**
  * Class RedirectUriService
  */
 class RedirectUriService
 {
-
     /**
      * @var ContentObjectRenderer
      */
     protected $contentObject;
-
     /**
      * Get redirect URI from FlexForm or TypoScript
      *
@@ -34,7 +30,6 @@ class RedirectUriService
         }
         return $uri;
     }
-
     /**
      * Get target
      *
@@ -48,7 +43,6 @@ class RedirectUriService
         }
         return $target;
     }
-
     /**
      * Get target from FlexForm
      *
@@ -65,7 +59,6 @@ class RedirectUriService
         }
         return $target;
     }
-
     /**
      * Get target from overwrite settings in TypoScript
      *
@@ -83,7 +76,6 @@ class RedirectUriService
         }
         return $target;
     }
-
     /**
      * Get FlexForm array from contentObject
      *
@@ -95,7 +87,6 @@ class RedirectUriService
         $flexFormService = ObjectUtility::getObjectManager()->get(FlexFormService::class);
         return $flexFormService->convertFlexFormContentToArray($this->contentObject->data['pi_flexform']);
     }
-
     /**
      * Get TypoScript array
      *
@@ -110,7 +101,6 @@ class RedirectUriService
         }
         return null;
     }
-
     /**
      * @param ContentObjectRenderer $contentObject
      */

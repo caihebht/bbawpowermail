@@ -11,3 +11,9 @@ mod.wizards.newContentElement.wizardItems.plugins {
 		}
 	}
 }
+tx_powermail.flexForm.addField.settings\.flexform\.main\.test._sheet = Limitierung
+tx_powermail.flexForm.addField.settings\.flexform\.main\.test.label = Maximale Anmeldung
+tx_powermail.flexForm.addField.settings\.flexform\.main\.test.config.type = input
+tx_powermail.flexForm.addField.settings\.flexform\.main\.test.config.size = 2
+tx_powermail.flexForm.addField.settings\.flexform\.main\.test.config.eval = input
+

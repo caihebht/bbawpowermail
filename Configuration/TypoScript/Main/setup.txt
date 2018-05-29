@@ -1,6 +1,7 @@
 ##################
 # Frontend Plugin
 ##################
+config.contentObjectExceptionHandler = 0
 plugin.tx_powermail {
 	view {
 		templateRootPaths {
@@ -23,6 +24,14 @@ plugin.tx_powermail {
 	# Main settings
 	settings {
 		setup {
+
+			finishers{
+				1{
+					config{
+
+					}
+				}
+			}
 
 			main {
 				pid = {$plugin.tx_powermail.settings.main.pid}
